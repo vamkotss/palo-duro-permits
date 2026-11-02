@@ -1,0 +1,24 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+# node
+node_modules/
+.next/
+# environment and secrets
+.env
+.env.*
+!.env.example
+# data and artifacts
+*.db
+data/generated/
+reports/
+# terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+# editor and os
+.DS_Store
+.vscode/settings.json
